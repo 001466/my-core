@@ -21,6 +21,7 @@
         <module>easy-zipkin-starter</module>
         <module>easy-tool-starter</module>
         <module>easy-cloud-starter</module>
+        <module>easy-cache-starter</module>
     </modules>
     <packaging>pom</packaging>
 

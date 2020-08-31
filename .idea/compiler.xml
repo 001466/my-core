@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="easy-cache-starter" />
         <module name="easy-cloud-starter" />
         <module name="easy-log" />
         <module name="easy-quartz-starter" />

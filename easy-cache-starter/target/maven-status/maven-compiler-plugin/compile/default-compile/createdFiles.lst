@@ -1,0 +1,8 @@
+org\easy\cache\config\MybatisRedisCache$1.class
+org\easy\cache\config\CustomRedisKeyGenerator.class
+org\easy\cache\config\CustomRedisCache.class
+org\easy\cache\config\CustomRedisCacheManager.class
+org\easy\cache\config\CustomRedisCache$1.class
+org\easy\cache\config\CustomRedisTemplate.class
+org\easy\cache\config\RedisConfig.class
+org\easy\cache\config\MybatisRedisCache.class
