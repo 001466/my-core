@@ -20,6 +20,7 @@
         <module>easy-swagger2-starter</module>
         <module>easy-zipkin-starter</module>
         <module>easy-tool-starter</module>
+        <module>easy-cloud-starter</module>
     </modules>
     <packaging>pom</packaging>
 
