@@ -1,9 +1,9 @@
 package org.easy.cache.config;
 
-import com.deocean.common.util.SpringUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.ibatis.cache.Cache;
+import org.easy.tool.util.SpringUtil;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;

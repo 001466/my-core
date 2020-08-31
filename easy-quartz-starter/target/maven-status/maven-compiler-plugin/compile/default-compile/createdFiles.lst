@@ -1,4 +1,0 @@
-org\easy\core\quartz\config\QuartzConfig.class
-org\easy\core\quartz\entity\QuartzJob.class
-org\easy\core\quartz\service\IJobService.class
-org\easy\core\quartz\service\impl\JobServiceImpl.class

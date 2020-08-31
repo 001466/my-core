@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.easy.core.quartz.config.QuartzConfig,\
-org.easy.core.quartz.service.impl.JobServiceImpl

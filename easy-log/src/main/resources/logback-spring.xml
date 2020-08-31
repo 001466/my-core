@@ -120,7 +120,7 @@
 
 	<!--<appender name="LOGSTASH"
 		class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-		<remoteHost>deocean.net</remoteHost>
+		<remoteHost>www.baidu.net</remoteHost>
 		<port>9800</port>
 		<encoder charset="UTF-8"
 			class="net.logstash.logback.encoder.LogstashEncoder">
@@ -133,7 +133,7 @@
 	<!-- 为logstash输出的JSON格式的Appender -->
 	<appender name="LOGSTASH"
 			  class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-		<destination>deocean.net:9800</destination>
+		<destination>baidu.com:9800</destination>
 		<!-- 日志输出编码 -->
 		<encoder
 				class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">

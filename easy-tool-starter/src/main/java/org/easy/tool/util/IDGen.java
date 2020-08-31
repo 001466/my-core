@@ -1,4 +1,4 @@
-package org.easy.tool.util;//package com.deocean.common.util;
+package org.easy.tool.util;
 //
 //import java.text.SimpleDateFormat;
 //import java.util.Date;

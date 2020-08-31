@@ -51,7 +51,7 @@ import java.util.concurrent.ConcurrentMap;
  */
 public abstract class BladeBeanCopier {
 	private static final Type CONVERTER = TypeUtils.parseType("org.springframework.cglib.core.Converter");
-	private static final Type CLASS_UTIL = TypeUtils.parseType("com.deocean.common.util.ClassUtil");
+	private static final Type CLASS_UTIL = TypeUtils.parseType("org.easy.tool.util.ClassUtil");
 	private static final Type BEAN_COPIER = TypeUtils.parseType(BladeBeanCopier.class.getName());
 	private static final Type BEAN_MAP = TypeUtils.parseType(Map.class.getName());
 	private static final Signature COPY = new Signature("copy", Type.VOID_TYPE, new Type[]{Constants.TYPE_OBJECT, Constants.TYPE_OBJECT, CONVERTER});

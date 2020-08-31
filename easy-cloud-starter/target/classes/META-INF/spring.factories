@@ -1,7 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.easy.cloud.config.AccessFilter,\
-org.easy.cloud.config.AccessInterceptor,\
-org.easy.cloud.config.MessageConfiguration,\
-org.easy.cloud.config.ControllerAdviceConfiguration,\
-org.easy.cloud.config.LoginUserArgumentHandler,\
-org.easy.cloud.config.LoginUserArgumentMvcConfig

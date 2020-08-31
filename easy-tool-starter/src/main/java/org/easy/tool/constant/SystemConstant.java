@@ -71,4 +71,15 @@ public interface SystemConstant {
      * 管理员对应的租户编号
      */
     String ADMIN_TENANT_CODE = "000000";
+
+    /**
+     * sword 系统名
+     */
+    String SWORD_NAME = "sword";
+
+    /**
+     * saber 系统名
+     */
+    String SABER_NAME = "saber";
+
 }
