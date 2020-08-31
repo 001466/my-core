@@ -2,8 +2,8 @@ package org.easy.cloud.config;
 
 
 import lombok.extern.slf4j.Slf4j;
+import org.easy.secure.exception.SecureException;
 import org.easy.tool.exception.CustomException;
-import org.easy.tool.exception.SecureException;
 import org.easy.tool.web.R;
 import org.easy.tool.web.ResultCode;
 import org.springframework.util.StringUtils;

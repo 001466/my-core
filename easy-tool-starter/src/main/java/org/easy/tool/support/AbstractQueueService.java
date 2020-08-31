@@ -1,4 +1,4 @@
-package org.easy.tool.support.service;
+package org.easy.tool.support;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.InitializingBean;

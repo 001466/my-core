@@ -72,7 +72,7 @@
 
         <dependency>
             <groupId>org.easy</groupId>
-            <artifactId>easy-tool-starter</artifactId>
+            <artifactId>easy-secure-starter</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

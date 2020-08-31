@@ -10,7 +10,9 @@
         <module name="easy-cache-starter" />
         <module name="easy-cloud-starter" />
         <module name="easy-log" />
+        <module name="easy-mybatisplus" />
         <module name="easy-quartz-starter" />
+        <module name="easy-secure-starter" />
         <module name="easy-swagger2-starter" />
         <module name="easy-tool-starter" />
         <module name="easy-zipkin-starter" />

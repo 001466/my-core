@@ -1,4 +1,4 @@
-package org.easy.tool.support.controller;
+package org.easy.tool.web;
 
 import org.springframework.lang.Nullable;
 

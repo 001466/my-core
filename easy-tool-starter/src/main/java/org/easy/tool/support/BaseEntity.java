@@ -1,6 +1,5 @@
 package org.easy.tool.support;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -23,9 +22,9 @@ public class BaseEntity implements Serializable {
 	static ObjectMapper mapper = new ObjectMapper();
 	static {
 		//序列化时忽略值为null的属性
-		mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+		mapper.setSerializationInclusion(Include.NON_NULL);
 		//忽略值为默认值的属性
-		mapper.setDefaultPropertyInclusion(JsonInclude.Include.NON_NULL);
+		mapper.setDefaultPropertyInclusion(Include.NON_NULL);
 		//在序列化时日期格式默认为 yyyy-MM-dd HH:mm:ss 简体中文
 		mapper.setDateFormat(new SimpleDateFormat(DateUtil.PATTERN_DATETIME, Locale.CHINA));
 

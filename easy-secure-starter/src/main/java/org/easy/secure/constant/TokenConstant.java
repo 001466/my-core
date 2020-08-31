@@ -14,7 +14,7 @@
  *  this software without specific prior written permission.
  *  Author: Chill 庄骞 (smallchill@163.com)
  */
-package org.easy.tool.constant;
+package org.easy.secure.constant;
 
 /**
  * Token配置常量.

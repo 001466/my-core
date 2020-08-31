@@ -2,7 +2,7 @@ package org.easy.cloud.config;
 
 
 import lombok.extern.slf4j.Slf4j;
-import org.easy.tool.constant.TokenConstant;
+import org.easy.secure.constant.TokenConstant;
 import org.easy.tool.util.JsonUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

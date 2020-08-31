@@ -1,4 +1,4 @@
-package org.easy.tool.util;
+package org.easy.tool.support;
 
 import java.io.Serializable;
 import java.util.AbstractMap;

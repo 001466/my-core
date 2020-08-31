@@ -1,6 +1,7 @@
-package org.easy.tool.exception;
+package org.easy.secure.exception;
 
 
+import org.easy.tool.exception.CustomException;
 import org.easy.tool.web.ResultCode;
 
 /**

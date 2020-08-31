@@ -22,6 +22,8 @@
         <module>easy-tool-starter</module>
         <module>easy-cloud-starter</module>
         <module>easy-cache-starter</module>
+        <module>easy-mybatisplus</module>
+        <module>easy-secure-starter</module>
     </modules>
     <packaging>pom</packaging>
 

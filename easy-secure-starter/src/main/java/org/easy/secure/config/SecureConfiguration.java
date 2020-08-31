@@ -14,30 +14,40 @@
  *  this software without specific prior written permission.
  *  Author: Chill 庄骞 (smallchill@163.com)
  */
-package org.easy.tool.node;
+package org.easy.secure.config;
 
-import lombok.Getter;
-import lombok.Setter;
 
+
+import lombok.extern.slf4j.Slf4j;
+import org.easy.secure.util.SecureRawUtil;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.web.client.RestTemplate;
 
 /**
- * 森林节点类
+ * 工具配置类
  *
- * @author smallchill
+ * @author Chill
  */
-@Setter
-@Getter
-public class ForestNode extends BaseNode {
+@Configuration
+@EnableScheduling
+@Slf4j
+public class SecureConfiguration {
 
-	/**
-	 * 节点内容
-	 */
-	private Object content;
 
-	public ForestNode(Integer id, Integer parentId, Object content) {
-		this.id = id;
-		this.parentId = parentId;
-		this.content = content;
-	}
+    @Bean(name = "secureRawUtilRestTemplate")
+    @LoadBalanced
+    RestTemplate secureRawUtilRestTemplate() {
+        return new RestTemplate();
+    }
+
+    @Bean
+    public SecureRawUtil secureRawUtil() {
+        return new SecureRawUtil(secureRawUtilRestTemplate());
+    }
+
+
 
 }

@@ -14,40 +14,43 @@
  *  this software without specific prior written permission.
  *  Author: Chill 庄骞 (smallchill@163.com)
  */
-package org.easy.tool.support.xss;
-
-import javax.servlet.*;
-import javax.servlet.http.HttpServletRequest;
-import java.io.IOException;
+package org.easy.secure.constant;
 
 /**
- * XSS过滤
+ * 授权校验常量
  *
  * @author Chill
  */
-public class XssFilter implements Filter {
+public interface SecureConstant {
 
-	@Override
-	public void init(FilterConfig config) throws ServletException {
+	/**
+	 * 认证请求头
+	 */
+	String BASIC_HEADER_KEY = "Authorization";
 
-	}
+	/**
+	 * 认证请求头前缀
+	 */
+	String BASIC_HEADER_PREFIX = "Basic ";
 
-	@Override
-	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-		ServletRequest requestWrapper = null;
-		if (request instanceof HttpServletRequest) {
-			requestWrapper = new XssHttpServletRequestWrapper((HttpServletRequest) request);
-		}
-		if (requestWrapper == null) {
-			chain.doFilter(request, response);
-		} else {
-			chain.doFilter(requestWrapper, response);
-		}
-	}
+	/**
+	 * blade_client表字段
+	 */
+	String CLIENT_FIELDS = "client_id, client_secret, access_token_validity, refresh_token_validity";
 
-	@Override
-	public void destroy() {
+	/**
+	 * blade_client查询语句
+	 */
+	String BASE_STATEMENT = "select " + CLIENT_FIELDS + " from blade_client";
 
-	}
+	/**
+	 * blade_client查询排序
+	 */
+	String DEFAULT_FIND_STATEMENT = BASE_STATEMENT + " order by client_id";
+
+	/**
+	 * 查询client_id
+	 */
+	String DEFAULT_SELECT_STATEMENT = BASE_STATEMENT + " where client_id = ?";
 
 }

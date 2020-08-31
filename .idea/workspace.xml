@@ -2,46 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89fdb7f3-879e-4fad-898c-5d2689e089ea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/easy-mybatisplus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-secure-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cache-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/MybatisRedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/MybatisRedisCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/CustomRedisCache$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/CustomRedisCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/CustomRedisCacheManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/CustomRedisKeyGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/CustomRedisTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/MybatisRedisCache$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/MybatisRedisCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/classes/org/easy/cache/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/easy-cache-starter.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cache-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cache-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/easy-cloud-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/ControllerAdviceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/ControllerAdviceConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/LoginUserArgumentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/LoginUserArgumentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/MessageConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/MessageConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/AccessInterceptor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/AccessInterceptor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/AccessInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/AccessInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/ControllerAdviceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/ControllerAdviceConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/LoginUserArgumentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/LoginUserArgumentHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/MessageConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/target/classes/org/easy/cloud/config/MessageConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-cloud-starter/target/easy-cloud-starter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/easy-cloud-starter/target/easy-cloud-starter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-log/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-log/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-log/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-log/target/classes/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-log/target/easy-log.jar" beforeDir="false" afterPath="$PROJECT_DIR$/easy-log/target/easy-log.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-quartz-starter/target/easy-quartz-starter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/easy-quartz-starter/target/easy-quartz-starter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-swagger2-starter/target/easy-swagger2-starter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/easy-swagger2-starter/target/easy-swagger2-starter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanCopier.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanCopier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/SystemConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/SystemConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/IDGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/IDGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/target/classes/org/easy/tool/beans/BladeBeanCopier.class" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/target/classes/org/easy/tool/beans/BladeBeanCopier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/target/classes/org/easy/tool/constant/SystemConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/target/classes/org/easy/tool/constant/SystemConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-tool-starter/target/easy-tool-starter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/target/easy-tool-starter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-zipkin-starter/target/easy-zipkin-starter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/easy-zipkin-starter/target/easy-zipkin-starter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/config/ToolConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/config/ToolConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/SecureConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/constant/SecureConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/TokenConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/constant/TokenConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/exception/SecureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/exception/SecureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/BaseNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/ForestNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/ForestNodeManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/ForestNodeMerger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/INode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/NodeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/secure/BladeUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/BladeUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/secure/SecureRawUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureRawUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/secure/SecureWrapUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureWrapUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntityWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/DateFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/KeyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/controller/TypeDeferredResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/web/TypeDeferredResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/service/AbstractQueueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/AbstractQueueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/xss/HtmlFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/xss/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/config/SecureConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/xss/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/CacheMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/CacheMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/CacheMapEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/CacheMapEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/page/PageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/page/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,6 +54,8 @@
     <ignored path="$PROJECT_DIR$/easy-tool-starter/target/" />
     <ignored path="$PROJECT_DIR$/easy-cloud-starter/target/" />
     <ignored path="$PROJECT_DIR$/easy-cache-starter/target/" />
+    <ignored path="$PROJECT_DIR$/easy-mybatisplus/target/" />
+    <ignored path="$PROJECT_DIR$/easy-secure-starter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +68,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExportExcelWrapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelWrapper.java">
+      <file leaf-file-name="CacheMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/CacheMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="100">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BladeBeanCopier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanCopier.java">
+      <file leaf-file-name="CharPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/CharPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+            <state relative-caret-position="200">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/CodeGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ColorGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecureRawUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureRawUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanProperty.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BeanProperty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ConvertUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,76 +143,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-log/src/main/resources/logback-spring.xml">
+      <file leaf-file-name="SecureWrapUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureWrapUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="133" column="29" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomRedisCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomRedisCacheManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisCacheManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomRedisKeyGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisKeyGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomRedisTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisRedisCache.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/MybatisRedisCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="296">
+              <caret line="152" column="7" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3325#3326#0" expanded="true" />
+                <element signature="e#3398#3399#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/RedisConfig.java">
+      <file leaf-file-name="AccessInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy-cache-starter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="271">
+              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,20 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/BeanUtil.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ConvertUtil.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanMapEmitter.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/config/ToolConfiguration.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/BladeConverter.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/Date2StringConverter.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/EnumToStringConverter.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/StringToEnumConverter.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/jackson/BladeBeanSerializerModifier.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/jackson/BladeJavaTimeModule.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/NodeTest.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/secure/BladeUser.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/secure/SecureRawUtil.java" />
@@ -202,7 +198,6 @@
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/xss/HtmlFilter.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/xss/XssFilter.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/xss/XssHttpServletRequestWrapper.java" />
-        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntity.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntityWrapper.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/DateFormatter.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/FastStringWriter.java" />
@@ -214,16 +209,11 @@
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/exception/UserNotFoundException.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/web/R.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/web/PR.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/JacksonConfiguration.java" />
         <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/MappingConfiguration.java" />
         <option value="$PROJECT_DIR$/easy-cache-starter/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/SystemConstant.java" />
-        <option value="$PROJECT_DIR$/easy-cloud-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessInterceptor.java" />
-        <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/ControllerAdviceConfiguration.java" />
-        <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/LoginUserArgumentHandler.java" />
         <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/MessageConfiguration.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelUtil.java" />
         <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/IDGen.java" />
@@ -232,6 +222,26 @@
         <option value="$PROJECT_DIR$/easy-cache-starter/pom.xml" />
         <option value="$PROJECT_DIR$/easy-log/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/MybatisRedisCache.java" />
+        <option value="$PROJECT_DIR$/easy-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/Query.java" />
+        <option value="$PROJECT_DIR$/easy-tool-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/easy-secure/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/easy-secure-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/config/ToolConfiguration.java" />
+        <option value="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/config/ToolConfiguration.java" />
+        <option value="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/exception/SecureException.java" />
+        <option value="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/exception/UserNotFoundException.java" />
+        <option value="$PROJECT_DIR$/easy-cloud-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/ControllerAdviceConfiguration.java" />
+        <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/LoginUserArgumentHandler.java" />
+        <option value="$PROJECT_DIR$/easy-secure-starter/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/CacheMap.java" />
+        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/CacheMapEntry.java" />
+        <option value="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureRawUtil.java" />
+        <option value="$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureWrapUtil.java" />
+        <option value="$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessInterceptor.java" />
       </list>
     </option>
   </component>
@@ -254,7 +264,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -271,25 +283,25 @@
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-cache-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-cloud-starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-cache-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-cloud-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-cache-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-cloud-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-cache-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-cloud-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -297,7 +309,7 @@
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-cache-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-cloud-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -306,37 +318,77 @@
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-tool-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-tool-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-tool-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-tool-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-core" type="462c0819:PsiDirectoryNode" />
-              <item name="easy-tool-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-core" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="secure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-core" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="secure" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-core" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="secure" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-core" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="secure" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-core" type="462c0819:PsiDirectoryNode" />
+              <item name="easy-secure-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="secure" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,12 +406,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.easy.tool.support" />
+      <recent name="org.easy.secure.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\my-core\easy-cache-starter\src\main\java\org\easy\cache\config" />
-      <recent name="F:\workspace\my-core\easy-cache-starter\src\main" />
-      <recent name="F:\workspace\my-core\easy-cloud-starter\src\main\java\org\easy\cloud\config" />
-      <recent name="F:\workspace\my-core\easy-cloud-starter\src\main" />
+      <recent name="F:\workspace\my-core\easy-secure-starter\src\main" />
+      <recent name="F:\workspace\my-core\easy-secure-starter\src\main\java\org\easy\secure" />
+      <recent name="F:\workspace\my-core\easy-tool-starter\src\main\java\org\easy\tool\support" />
       <recent name="F:\workspace\my-core\easy-tool-starter\src\main\java\org\easy\tool" />
+      <recent name="F:\workspace\my-core\easy-zipkin-starter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -440,14 +496,14 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3874459" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3704691" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -472,8 +528,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3704691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -482,9 +537,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info id="UI Designer" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3874459" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -499,236 +555,139 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/web/PageResult.java" />
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/web/IResultCode.java">
+    <entry file="file://$PROJECT_DIR$/easy-mybatisplus/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="300">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BeanProperty.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanMapKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="275">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanCopierKey.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/CopyProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="179">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanMap.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/BeanUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="1346">
+          <caret line="349" column="41" lean-forward="true" selection-start-line="349" selection-start-column="41" selection-end-line="349" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/localWarehouse/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/beans/BeanMap.class">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/DateFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanMapEmitter.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/KeyEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        <state relative-caret-position="125">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/SecureConstant.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/TokenConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/web/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="108" column="38" lean-forward="true" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/exception/SecureException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/exception/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/exception/UserNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/ForestNodeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/ForestNodeMerger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/secure/AuthInfo.java" />
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/BaseNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/BladeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/BladeConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntityWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-secure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="392">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/resources/bootstrap-71.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/resources/bootstrap-121.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/resources/bootstrap-111.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessFilter.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="25" selection-start-line="25" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessFilterRequestWrapper.java">
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/BladeUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1743">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-953">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/JacksonConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/LoginUserArgumentMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/MappingConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="371">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/config/ToolConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/constant/SystemConstant.java">
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/exception/SecureException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="620">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/exception/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easy-cloud-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/ControllerAdviceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="157">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,107 +696,239 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/LoginUserArgumentHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="475">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/MessageConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/config/SecureConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        <state relative-caret-position="25">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelUtil.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/IDGen.java">
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ExportExcelWrapper.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/Try.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="250">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BladeBeanCopier.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/BladeConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-log/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/Date2StringConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="133" column="29" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
+        <state relative-caret-position="100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisCache.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/EnumToStringConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="250">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisCacheManager.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/StringToEnumConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="275">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisKeyGenerator.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/web/TypeDeferredResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/StrSpliter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/page/PageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/CustomRedisTemplate.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/page/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="-1277">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/Kv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+        <state relative-caret-position="250">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/FastStringWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="-975">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy-cache-starter/src/main/java/org/easy/cache/config/MybatisRedisCache.java">
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/AbstractQueueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/CacheMapEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/CacheMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/CharPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/CodeGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ColorGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureRawUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/BaseNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/convert/BladeConversionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/beans/BeanProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/util/ConvertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/node/ForestNodeMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/jackson/BladeBeanSerializerModifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/jackson/BladeJavaTimeModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-tool-starter/src/main/java/org/easy/tool/support/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-secure-starter/src/main/java/org/easy/secure/util/SecureWrapUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="152" column="7" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3325#3326#0" expanded="true" />
+            <element signature="e#3398#3399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy-cloud-starter/src/main/java/org/easy/cloud/config/AccessInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

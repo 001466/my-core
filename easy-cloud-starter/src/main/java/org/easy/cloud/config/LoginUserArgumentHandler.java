@@ -1,7 +1,8 @@
 package org.easy.cloud.config;
 
-import org.easy.tool.secure.BladeUser;
-import org.easy.tool.secure.SecureWrapUtil;
+
+import org.easy.secure.BladeUser;
+import org.easy.secure.util.SecureWrapUtil;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.support.WebDataBinderFactory;

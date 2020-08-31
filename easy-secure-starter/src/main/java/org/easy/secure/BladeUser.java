@@ -1,5 +1,5 @@
 
-package org.easy.tool.secure;
+package org.easy.secure;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.NoArgsConstructor;

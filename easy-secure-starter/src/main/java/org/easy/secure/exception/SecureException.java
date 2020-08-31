@@ -14,38 +14,41 @@
  *  this software without specific prior written permission.
  *  Author: Chill 庄骞 (smallchill@163.com)
  */
-package org.easy.tool.node;
+package org.easy.secure.exception;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.Getter;
-import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.List;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import org.easy.tool.exception.CustomException;
+import org.easy.tool.web.ResultCode;
+
 
 /**
- * 节点基类
+ * Secure异常
  *
- * @author smallchill
+ * @author Chill
  */
-@Setter
-@Getter
-public class BaseNode implements INode {
 
-	/**
-	 * 主键ID
-	 */
-	protected Integer id;
+@Data
+@EqualsAndHashCode(callSuper = true)
+public class SecureException extends CustomException {
+	private static final long serialVersionUID = 2359767895161832954L;
 
-	/**
-	 * 父节点ID
-	 */
-	protected Integer parentId;
+	public SecureException(String message) {
+		super(message);
+	}
 
-	/**
-	 * 子孙节点
-	 */
-	@JsonInclude(JsonInclude.Include.NON_EMPTY)
-	protected List<INode> children = new ArrayList<>();
+	public SecureException(ResultCode code, String message) {
+		super(message);
+		this.code = code;
+	}
 
+//	public SecureException(  Throwable cause) {
+//		super(cause);
+//	}
+
+	@Override
+	public Throwable fillInStackTrace() {
+		return this;
+	}
 }

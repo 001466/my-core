@@ -14,10 +14,11 @@
  *  this software without specific prior written permission.
  *  Author: Chill 庄骞 (smallchill@163.com)
  */
-package org.easy.tool.secure;
+package org.easy.secure.util;
 
 import lombok.SneakyThrows;
-import org.easy.tool.constant.TokenConstant;
+import org.easy.secure.BladeUser;
+import org.easy.secure.constant.TokenConstant;
 import org.easy.tool.util.StringPool;
 import org.easy.tool.util.WebUtil;
 import org.springframework.web.client.RestTemplate;

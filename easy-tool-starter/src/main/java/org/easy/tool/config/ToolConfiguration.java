@@ -19,7 +19,6 @@ package org.easy.tool.config;
 
 
 import lombok.extern.slf4j.Slf4j;
-import org.easy.tool.secure.SecureRawUtil;
 import org.easy.tool.util.SpringUtil;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -36,18 +35,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableScheduling
 @Slf4j
 public class ToolConfiguration {
-
-
-    @Bean(name = "secureRawUtilRestTemplate")
-    @LoadBalanced
-    RestTemplate secureRawUtilRestTemplate() {
-        return new RestTemplate();
-    }
-
-    @Bean
-    public SecureRawUtil secureRawUtil() {
-        return new SecureRawUtil(secureRawUtilRestTemplate());
-    }
 
     @Bean
     public SpringUtil springUtil() {

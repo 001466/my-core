@@ -1,5 +1,5 @@
 
-package org.easy.tool.secure;
+package org.easy.secure.util;
 
 
 import io.jsonwebtoken.Claims;
@@ -8,9 +8,10 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.easy.tool.constant.SecureConstant;
-import org.easy.tool.constant.TokenConstant;
-import org.easy.tool.exception.SecureException;
+import org.easy.secure.BladeUser;
+import org.easy.secure.exception.SecureException;
+import org.easy.secure.constant.SecureConstant;
+import org.easy.secure.constant.TokenConstant;
 import org.easy.tool.util.BeanUtil;
 import org.easy.tool.util.Charsets;
 import org.easy.tool.util.StringPool;
