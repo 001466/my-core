@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="easy-log" />
+        <module name="easy-quartz-starter" />
+        <module name="easy-swagger2-starter" />
+        <module name="easy-tool-starter" />
+        <module name="easy-zipkin-starter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

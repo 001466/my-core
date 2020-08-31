@@ -1,0 +1,15 @@
+
+spring:
+  zipkin:
+    discovery-client-enabled: false
+    discoveryClientEnabled: false
+
+info:
+  version: 2.0.0
+  desc: ${spring.application.name}
+
+
+
+
+
+
