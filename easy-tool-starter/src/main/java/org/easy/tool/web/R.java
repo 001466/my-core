@@ -115,11 +115,19 @@ public class R<T>  implements Serializable {
         return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage());
     }
 
+    public static <T>  R<T> status(boolean success) {
+        return new R<>(success, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage());
+    }
+
     public static <T> R<T> success(String msg) {
         return new R<>(true, ResultCode.SUCCESS.getCode(), msg);
     }
 
     public static <T> R<T> success(T data) {
+        return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage(), data);
+    }
+
+    public static <T> R<T> data(T data) {
         return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage(), data);
     }
 
