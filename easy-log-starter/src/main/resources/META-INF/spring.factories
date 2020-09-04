@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.easy.log.config.BladeLogToolAutoConfiguration,\
+org.easy.log.aspect.RequestLogAspect

@@ -1,6 +1,6 @@
-package org.easy.core.quartz.service;
+package org.easy.quartz.service;
 
-import org.easy.core.quartz.entity.QuartzJob;
+import org.easy.quartz.entity.QuartzJob;
 import org.quartz.Job;
 import org.quartz.JobDataMap;
 import org.quartz.JobKey;

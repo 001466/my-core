@@ -28,6 +28,8 @@ public class R<T>  implements Serializable {
         this.code=ResultCode.SUCCESS.getCode();this.traceId=getTraceId();
     }
 
+
+
     public R(Boolean success, Integer code, String message, T data) {
         this.success=success;
         this.code=code;
@@ -36,6 +38,8 @@ public class R<T>  implements Serializable {
         this.timestamp=System.currentTimeMillis();
         //this.traceId=getTraceId();
     }
+
+
 
     public R(Boolean success, Integer code, String message) {
         this.success=success;
@@ -52,6 +56,11 @@ public class R<T>  implements Serializable {
         this.message=message;
         this.data=data;
         this.timestamp=System.currentTimeMillis();
+        //this.traceId=getTraceId();
+    }
+
+    public R(Boolean success) {
+        this.success=success;
         //this.traceId=getTraceId();
     }
 
@@ -112,11 +121,11 @@ public class R<T>  implements Serializable {
 
 
     public static <T>  R<T> success() {
-        return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage());
+        return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMessage());
     }
 
     public static <T>  R<T> status(boolean success) {
-        return new R<>(success, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage());
+        return new R<>(success);
     }
 
     public static <T> R<T> success(String msg) {
@@ -124,11 +133,11 @@ public class R<T>  implements Serializable {
     }
 
     public static <T> R<T> success(T data) {
-        return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage(), data);
+        return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMessage(), data);
     }
 
     public static <T> R<T> data(T data) {
-        return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.FAILURE.getMessage(), data);
+        return new R<>(true, ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMessage(), data);
     }
 
     public static <T> R<T> success(String msg, T data) {

@@ -1,4 +1,4 @@
-package org.easy.core.quartz.config;
+package org.easy.quartz.config;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;

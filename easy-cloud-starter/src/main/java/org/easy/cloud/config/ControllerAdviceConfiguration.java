@@ -27,7 +27,7 @@ public class ControllerAdviceConfiguration {
     @ExceptionHandler(value = SecureException.class)
     public R<String> secureException(Exception ex){
         log.error(ex.getMessage(),ex);
-        return R.fail(((CustomException) ex).getCode(), ex.getMessage());
+        return R.fail(((SecureException) ex).getCode(), ex.getMessage());
     }
 
     @ResponseBody
@@ -38,7 +38,7 @@ public class ControllerAdviceConfiguration {
         if(ex instanceof CustomException){
             return R.fail(((CustomException) ex).getCode(), ex.getMessage());
         }else {
-            if(StringUtils.isEmpty(ex.getCause().getMessage())){
+            if(ex.getCause()==null){
                 return R.fail(ResultCode.INTERNAL_SERVER_ERROR, ResultCode.INTERNAL_SERVER_ERROR.getMessage());
             }else {
                 return R.fail(ResultCode.INTERNAL_SERVER_ERROR, ex.getCause().getMessage());

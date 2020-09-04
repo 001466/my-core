@@ -1,10 +1,10 @@
-package org.easy.core.quartz.service.impl;
+package org.easy.quartz.service.impl;
 
 
 
 import lombok.extern.slf4j.Slf4j;
-import org.easy.core.quartz.entity.QuartzJob;
-import org.easy.core.quartz.service.IJobService;
+import org.easy.quartz.entity.QuartzJob;
+import org.easy.quartz.service.IJobService;
 import org.quartz.*;
 import org.quartz.impl.matchers.GroupMatcher;
 import org.springframework.beans.factory.annotation.Autowired;

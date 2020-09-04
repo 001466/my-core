@@ -1,4 +1,4 @@
-package org.easy.core.quartz.entity;
+package org.easy.quartz.entity;
 
 import lombok.Data;
 
