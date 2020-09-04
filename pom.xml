@@ -25,6 +25,7 @@
         <module>easy-mybatisplus</module>
         <module>easy-secure-starter</module>
         <module>easy-log-starter</module>
+        <module>easy-mybatisplus-starter</module>
     </modules>
     <packaging>pom</packaging>
 

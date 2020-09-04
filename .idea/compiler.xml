@@ -12,6 +12,7 @@
         <module name="easy-log" />
         <module name="easy-log-starter" />
         <module name="easy-mybatisplus" />
+        <module name="easy-mybatisplus-starter" />
         <module name="easy-quartz-starter" />
         <module name="easy-secure-starter" />
         <module name="easy-swagger2-starter" />
